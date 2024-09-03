@@ -1,0 +1,399 @@
+index.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NGO - Home</title>
+<link rel="stylesheet" href="styles/styles.css">
+<link
+href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@400;700&family=Fra
+unces:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+<div class="container">
+<a href="index.html" class="logo-space">LOGO</a>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="who-we-are.html">Who We Are?</a></li>
+<li><a href="what-we-do.html">What We Do?</a></li>
+<li><a href="join.html">Join Our Team</a></li>
+<li><a href="contact.html">Contact Us</a></li>
+</ul>
+</nav>
+<a href="#" class="donate-btn">Donate</a>
+</div>
+</header>
+<section class="hero">
+<div class="container">
+<h1>Welcome to Our NGO</h1>
+<p>Join us in our mission to bring positive change.</p>
+<a href="join.html" class="btn">Join Our Team</a>
+</div>
+<div class="geometric-shapes">
+<div class="shape circle"></div>
+<div class="shape square"></div>
+<div class="shape triangle"></div>
+</div>
+</section>
+
+<footer>
+<div class="container">
+<p>&copy; 2024 NGO. All Rights Reserved.</p>
+</div>
+</footer>
+<script src="scripts/main.js"></script>
+</body>
+</html>
+
+who-we-are.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NGO - Who We Are?</title>
+<link rel="stylesheet" href="styles/styles.css">
+<link
+href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@400;700&family=Fra
+unces:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+<div class="container">
+<a href="index.html" class="logo-space">LOGO</a>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="who-we-are.html">Who We Are?</a></li>
+<li><a href="what-we-do.html">What We Do?</a></li>
+<li><a href="join.html">Join Our Team</a></li>
+<li><a href="contact.html">Contact Us</a></li>
+</ul>
+</nav>
+</div>
+</header>
+<section class="content">
+<div class="container">
+<h2>Who We Are?</h2>
+<p>Our NGO is dedicated to improving the lives of those in need through various
+initiatives and programs.</p>
+</div>
+</section>
+<footer>
+<div class="container">
+<p>&copy; 2024 NGO. All Rights Reserved.</p>
+</div>
+</footer>
+
+<script src="scripts/main.js"></script>
+</body>
+</html>
+
+what-we-do.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NGO - What We Do?</title>
+<link rel="stylesheet" href="styles/styles.css">
+<link
+href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@400;700&family=Fra
+unces:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+<div class="container">
+<a href="index.html" class="logo-space">LOGO</a>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="who-we-are.html">Who We Are?</a></li>
+<li><a href="what-we-do.html">What We Do?</a></li>
+<li><a href="join.html">Join Our Team</a></li>
+<li><a href="contact.html">Contact Us</a></li>
+</ul>
+</nav>
+</div>
+</header>
+<section class="content">
+<div class="container">
+<h2>What We Do?</h2>
+<p>We offer a range of services aimed at improving the lives of underprivileged
+communities.</p>
+<ul>
+<li>Education Programs</li>
+<li>Healthcare Services</li>
+<li>Community Development</li>
+</ul>
+</div>
+</section>
+
+<footer>
+<div class="container">
+<p>&copy; 2024 NGO. All Rights Reserved.</p>
+</div>
+</footer>
+<script src="scripts/main.js"></script>
+</body>
+</html>
+
+contact.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NGO - Contact Us</title>
+<link rel="stylesheet" href="styles/styles.css">
+<link
+href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@400;700&family=Fra
+unces:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+<div class="container">
+<a href="index.html" class="logo-space">LOGO</a>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="who-we-are.html">Who We Are?</a></li>
+<li><a href="what-we-do.html">What We Do?</a></li>
+<li><a href="join.html">Join Our Team</a></li>
+<li><a href="contact.html">Contact Us</a></li>
+</ul>
+</nav>
+</div>
+</header>
+<section class="content">
+<div class="container">
+<h2>Contact Us</h2>
+<form>
+<label for="name">Name:</label>
+<input type="text" id="name" name="name" required>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required>
+<label for="message">Message:</label>
+<textarea id="message" name="message" required></textarea>
+
+<button type="submit" class="btn">Send Message</button>
+</form>
+</div>
+</section>
+<footer>
+<div class="container">
+<p>&copy; 2024 NGO. All Rights Reserved.</p>
+</div>
+</footer>
+<script src="scripts/main.js"></script>
+</body>
+</html>
+
+join.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NGO - Join Our Team</title>
+<link rel="stylesheet" href="styles/styles.css">
+<link
+href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@400;700&family=Fra
+unces:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+<div class="container">
+<a href="index.html" class="logo-space">LOGO</a>
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="who-we-are.html">Who We Are?</a></li>
+<li><a href="what-we-do.html">What We Do?</a></li>
+<li><a href="join.html">Join Our Team</a></li>
+<li><a href="contact.html">Contact Us</a></li>
+</ul>
+</nav>
+</div>
+</header>
+<section class="content">
+<div class="container">
+<h2>Join Our Team</h2>
+<p>We are always looking for passionate individuals to join our team and help us make
+a difference.</p>
+<a href="contact.html" class="btn">Contact Us to Join</a>
+</div>
+</section>
+<footer>
+<div class="container">
+<p>&copy; 2024 NGO. All Rights Reserved.</p>
+</div>
+
+</footer>
+<script src="scripts/main.js"></script>
+</body>
+</html>
+
+styles.css
+
+body {
+font-family: 'Noto Serif Display', serif;
+background-color: #F6EDDB;
+color: #1B2F22;
+margin: 0;
+padding: 0;
+line-height: 1.6;
+}
+header {
+background-color: #1B2F22;
+color: #F6EDDB;
+padding: 20px 0;
+text-align: center;
+position: relative;
+}
+header .container {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+header .logo-space {
+font-family: 'Fraunces', serif;
+font-size: 24px;
+font-weight: 700;
+}
+header nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: flex;
+}
+header nav ul li {
+margin: 0 15px;
+}
+header nav ul li a {
+
+color: #F6EDDB;
+text-decoration: none;
+font-weight: 700;
+}
+.donate-btn {
+background-color: #F6EDDB;
+color: #1B2F22;
+padding: 10px 20px;
+border-radius: 50px;
+text-decoration: none;
+font-weight: bold;
+transition: background-color 0.3s ease;
+position: absolute;
+right: 20px;
+top: 20px;
+}
+.donate-btn:hover {
+background-color: #D4C2A2;
+}
+.hero {
+text-align: center;
+padding: 100px 20px;
+position: relative;
+}
+.hero .container h1 {
+font-family: 'Fraunces', serif;
+font-size: 48px;
+margin: 0 0 20px;
+}
+.hero .container p {
+font-size: 18px;
+margin: 0 0 20px;
+}
+.hero .btn {
+background-color: #1B2F22;
+color: #F6EDDB;
+padding: 10px 30px;
+text-decoration: none;
+
+border-radius: 5px;
+font-weight: bold;
+transition: background-color 0.3s ease;
+}
+.hero .btn:hover {
+background-color: #F6EDDB;
+color: #1B2F22;
+}
+.geometric-shapes .shape {
+position: absolute;
+opacity: 0.3;
+}
+.shape.circle {
+width: 100px;
+height: 100px;
+background-color: #1B2F22;
+border-radius: 50%;
+top: 20%;
+left: 10%;
+}
+.shape.square {
+width: 120px;
+height: 120px;
+background-color: #D4C2A2;
+top: 40%;
+right: 20%;
+}
+.shape.triangle {
+width: 0;
+height: 0;
+border-left: 60px solid transparent;
+border-right: 60px solid transparent;
+border-bottom: 120px solid #1B2F22;
+bottom: 20%;
+left: 50%;
+transform: translateX(-50%);
+}
+section.content {
+
+padding: 50px 20px;
+text-align: center;
+}
+section.content h2 {
+font-family: 'Fraunces', serif;
+font-size: 36px;
+margin-bottom: 20px;
+}
+section.content p,
+section.content ul {
+font-size: 18px;
+max-width: 600px;
+margin: 0 auto;
+}
+section.content ul {
+list-style-type: none;
+padding: 0;
+}
+section.content ul li {
+margin: 10px 0;
+}
+footer {
+background-color: #1B2F22;
+color: #F6EDDB;
+text-align: center;
+padding: 10px 0;
+font-size: 14px;
+}
+
+main.js
+
+document.addEventListener('DOMContentLoaded', () => {
+const donateBtn = document.querySelector('.donate-btn');
+donateBtn.addEventListener('click', (e) => {
+e.preventDefault();
+alert('Thank you for your interest in donating! Redirecting to donation page...');
+window.location.href ='https://www.example.com/donate';
+});
+});
